@@ -21,7 +21,6 @@ library(ggplot2)
 
 library(lattice)
 
-library(vembedr)
 
 knitr::opts_chunk$set(echo = TRUE)
 ```
@@ -110,15 +109,6 @@ plt.title('Usuarios de lenguajes de programación')
  
 
 plt.show()
-```
-
-## YouTube - Tutorial
-
-Compartimos el siguiente tutorial tomado de la plataforma **YouTube** que muestra como crear diagramas de barras (**Bar Charts**) haciendo uso de la función `barplot()` y el paquete **ggplot2** del lenguaje de programación R.
-
-```{r video}
-embed_url("https://www.youtube.com/watch?v=EkxRj02iaLk&t=6s") %>% 
-  use_align("center")
 ```
 
 
